@@ -27,3 +27,5 @@ Want to use ES6? Check the [compatibility table](https://kangax.github.io/compat
 ### [Arrow Functions](arrow_functions)
 
 ### [Classes](classes)
+
+### [Destructuring](destructuring)
