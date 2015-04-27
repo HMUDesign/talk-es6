@@ -29,3 +29,5 @@ Want to use ES6? Check the [compatibility table](https://kangax.github.io/compat
 ### [Classes](classes)
 
 ### [Destructuring](destructuring)
+
+### [Map, Filter, Reduce](map_filter_reduce)
