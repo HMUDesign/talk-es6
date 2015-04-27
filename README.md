@@ -18,6 +18,10 @@ traceur-repl
 
 Finally, if you want to use es6 in production, I would suggest using [JSPM](http://jspm.io/) as it supports ES6 via traceur and ES5 via AMD and CommonJS. This last ability means it can import/require nodejs modules as well.
 
+## Compatibility
+
+Want to use ES6? Check the [compatibility table](https://kangax.github.io/compat-table/es6/).
+
 ## Features
 
 ### [Arrow Functions](arrow_functions)
