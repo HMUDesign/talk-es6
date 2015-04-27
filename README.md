@@ -21,3 +21,5 @@ Finally, if you want to use es6 in production, I would suggest using [JSPM](http
 ## Features
 
 ### [Arrow Functions](arrow_functions)
+
+### [Classes](classes)
