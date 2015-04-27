@@ -41,3 +41,5 @@ Want to use ES6? Check the [compatibility table](https://kangax.github.io/compat
 ### [Map, Filter, Reduce](map_filter_reduce)
 
 ### [Modules](modules)
+
+### [Promises](promises)
