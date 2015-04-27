@@ -6,7 +6,7 @@ class Animal {
 	}
 	
 	speak() {
-		console.log(this.sound);
+		return this.sound;
 	}
 }
 
@@ -18,7 +18,11 @@ class Dog extends Animal {
 		
 		this.sound = 'bark';
 	}
+	
+	speak() {
+		return this.name + ' says "' + super.speak() + '!"';
+	}
 }
 
 let brandy = new Dog('brandy');
-brandy.speak();
+console.log(brandy.speak());
