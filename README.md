@@ -45,3 +45,5 @@ Want to use ES6? Check the [compatibility table](https://kangax.github.io/compat
 ### [Promises](promises)
 
 ### [Scoping](scoping)
+
+### [Template Strings](template_strings)
