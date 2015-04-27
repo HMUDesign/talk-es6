@@ -32,6 +32,8 @@ Want to use ES6? Check the [compatibility table](https://kangax.github.io/compat
 
 ### [Extensions to Array](extensions_to_array)
 
+### [Extensions to Function](extensions_to_function)
+
 ### [Generators](generators)
 
 ### [Map, Filter, Reduce](map_filter_reduce)
