@@ -9,14 +9,20 @@ function *filter(items, iterator) {
 }
 
 let values = [1, 2, 3, 4, 5];
-let squared = filter(values, (value) => {
+let odd = filter(values, (value) => {
 	return value % 2;
 });
 
+for (let i of odd) {
+	console.log(i)
+}
+
+/*
 while(true) {
-	let result = squared.next();
+	let result = odd.next();
 	
 	console.log(result);
 	
 	if(result.done) break;
 }
+*/

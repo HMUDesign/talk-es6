@@ -9,6 +9,11 @@ let squared = map(values, (value) => {
 	return value * value;
 });
 
+for (let i of squared) {
+	console.log(i)
+}
+
+/*
 while(true) {
 	let result = squared.next();
 	
@@ -16,3 +21,4 @@ while(true) {
 	
 	if(result.done) break;
 }
+*/

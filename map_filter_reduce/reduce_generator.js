@@ -16,22 +16,14 @@ let sum1 = reduce(values, (current, value) => {
 	return current + value;
 }, 0);
 
-while(true) {
-	let result = sum1.next();
-	
-	console.log(result);
-	
-	if(result.done) break;
+for (let i of sum1) {
+	console.log('sum1', i)
 }
 
 let sum2 = reduce(values, (current, value) => {
 	return current + value;
 });
 
-while(true) {
-	let result = sum2.next();
-	
-	console.log(result);
-	
-	if(result.done) break;
+for (let i of sum2) {
+	console.log('sum2', i)
 }
