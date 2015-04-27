@@ -3,14 +3,14 @@ let foo = {
 	
 	next() {
 		return new Promise((resolve, reject) => {
-			resolve(this.value++);
+			resolve(++this.value);
 		});
 	},
 	
 	bar() {
 		setInterval(() => {
 			this.next().then((value) => {
-				console.log(value);
+				console.log(value, this.value);
 			});
 		}, 500);
 	},
