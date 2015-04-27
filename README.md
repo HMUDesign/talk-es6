@@ -30,6 +30,8 @@ Want to use ES6? Check the [compatibility table](https://kangax.github.io/compat
 
 ### [Destructuring](destructuring)
 
+### [Generators](generators)
+
 ### [Map, Filter, Reduce](map_filter_reduce)
 
-### [Generators](generators)
+### [Modules](modules)
