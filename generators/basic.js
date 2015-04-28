@@ -1,12 +1,18 @@
 function *Bar() {
-	yield 0;
-	yield 1;
-	yield 2;
+	yield 10;
+	yield 20;
+	yield 30;
 }
 
-let foo = Bar();
+let foo;
 
+foo = Bar();
 console.log(foo.next());
 console.log(foo.next());
 console.log(foo.next());
 console.log(foo.next());
+
+foo = Bar();
+for(let value of foo) {
+	console.log(value);
+}
